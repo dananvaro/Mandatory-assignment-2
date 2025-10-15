@@ -9,4 +9,4 @@ def schedule_reminders(students_manager, reminder_generator, reminder_sender, lo
             lambda s=student, r=reminder: (reminder_sender(s['email'], r), logger(s, r)))
     while True:
         schedule.run_pending()
-        time.sleep(1) # Check every minute
+        time.sleep(60) # Check every minute
