@@ -20,7 +20,7 @@ def main():
     studentManager.list_students()
 
     # Adds the new student
-    studentManager.add_student("Minh", "Minh@gmail.com", "Data Science", "10:00 AM")
+    studentManager.add_student("Minh", "Minh@gmail.com", "Data Science", "10:00")
 
     print("-----------------------------------------------")
     studentManager.list_students()
@@ -33,14 +33,15 @@ def main():
 
     print("-----------------------------------------------")
 
-    # Send a reminder with a spesific name and email
+    # Send a reminder with a specific name and email
     for students in studentList:
         reminder = generate_reminder(students['name'], students['course'])
         send_reminder(students['email'], reminder)
         log_reminder(students, reminder)
-        print("-----------------------------------------------")
 
-    schedule_reminders(studentManager,generate_reminder, send_reminder,log_reminder)
+    print("-----------------------------------------------")
+
+   ## schedule_reminders(studentManager,generate_reminder, send_reminder,log_reminder)
 
 if __name__ == "__main__":
     main()

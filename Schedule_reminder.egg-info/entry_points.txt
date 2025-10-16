@@ -1,0 +1,2 @@
+[console_scripts]
+schedule-reminder = main:main

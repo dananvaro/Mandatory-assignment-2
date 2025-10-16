@@ -1,0 +1,15 @@
+README.md
+main.py
+setup.py
+Schedule_reminder.egg-info/PKG-INFO
+Schedule_reminder.egg-info/SOURCES.txt
+Schedule_reminder.egg-info/dependency_links.txt
+Schedule_reminder.egg-info/entry_points.txt
+Schedule_reminder.egg-info/top_level.txt
+study_reminders/__init__.py
+study_reminders/logger.py
+study_reminders/reminder_generator.py
+study_reminders/reminder_sender.py
+study_reminders/scheduler_.py
+study_reminders/students.py
+study_reminders/students_manager.py

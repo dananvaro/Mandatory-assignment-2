@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: Schedule-reminder
+Version: 1.0
+Summary: Mandatory assignment 2 for ACIT4420 Problem-solving with scripting
+Author: Danan Subramaniam
+Author-email: dasub6503@oslomet.no
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
