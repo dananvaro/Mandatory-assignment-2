@@ -7,10 +7,10 @@ The aim of this project is to create a packeage that generates a messages and au
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Manage students from a JSON file
+- Creates and sends messages to each student
+- Run in a schedule that checks every minute
+- Logs sent messages
 
 
 ## Package Structure
@@ -40,7 +40,7 @@ To install follow these steps
 
 ```bash
   git clone https://github.com/dananvaro/Mandatory-assignment-2.git
-  cd Mandatory-assignment
+  cd Mandatory-assignment-2
 ```
 
 2. Install the package
